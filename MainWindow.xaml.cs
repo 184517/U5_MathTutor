@@ -1,4 +1,8 @@
-﻿using System;
+/* Jordan Ross
+May 24, 2019
+Math Tutor
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,10 +25,10 @@ namespace U5_MathTutor
     public partial class MainWindow : Window
     {
         Random rnd = new Random();
-        int x;
+        double x;
         int symbol;
-        int y;
-        int answer;
+        double y;
+        double answer;
         
         public MainWindow()
         {
@@ -60,7 +64,7 @@ namespace U5_MathTutor
 
         private void btnAnswer_Click(object sender, RoutedEventArgs e)
         {
-            
+            double temp;
             if (symbol == 1)
             {
                 answer = x + y;
@@ -71,7 +75,8 @@ namespace U5_MathTutor
             }
             else if (symbol == 3)
             {
-                answer = x / y;
+                temp = x / y;
+                answer = Math.Round(temp,1);
             }
             else
             {
