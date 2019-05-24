@@ -10,7 +10,7 @@
         <Label x:Name="lblQuestion" Height="45" Width="321" />
         <Button x:Name="btnQuestion" Click="btnQuestion_Click" Content="Generate Question" Background="HotPink"
                 Canvas.Left="321" Height="45" Width="196" />
-        <TextBox x:Name="txtAnswer" Text="Enter Answer" Canvas.Top="50" Height="57" Width="321" />
+        <TextBox x:Name="txtAnswer" Text="Enter answer to the nearest tenth" Canvas.Top="50" Height="57" Width="321" />
         <Button x:Name="btnAnswer" Click="btnAnswer_Click" Content="Check Answer" Background="RoyalBlue"
                 Canvas.Left="321" Canvas.Top="50" Height="57" Width="196" />
         <Label x:Name="lblOutput" Canvas.Top="107" Height="59" Width="517" />
